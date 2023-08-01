@@ -10,9 +10,9 @@ import java.util.Map;
 @Setter
 @Entity
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Table(name = "board")
+//@NoArgsConstructor
+//@AllArgsConstructor
+@Table(name = "board")// This is used to define the mapping between a Java entity class & database table
 public class Board extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
