@@ -5,7 +5,7 @@ import lombok.*;
 
 import java.util.List;
 import java.util.Map;
-
+// To auto generate Getter & Setter for Properties
 @Getter
 @Setter
 @Entity
