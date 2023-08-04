@@ -3,7 +3,7 @@ package com.ProjectManagementBoard.ProjectManagementBoard.Model;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Getter
+@Getter// To auto generate Getter & Setter for Properties
 @Setter
 @Entity
 @Data
