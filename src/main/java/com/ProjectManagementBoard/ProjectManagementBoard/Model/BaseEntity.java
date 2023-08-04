@@ -17,6 +17,6 @@ public class BaseEntity {
     Date createDate;
     // Update up tp date
     @UpdateTimestamp
-    Date updateDate;
+    Date updateDate; //for update date
     Boolean isActive;
 }

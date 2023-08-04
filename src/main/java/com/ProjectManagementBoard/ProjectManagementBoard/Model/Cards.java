@@ -7,8 +7,8 @@ import lombok.*;
 @Setter
 @Entity
 @Data
-//@NoArgsConstructor
-//@AllArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "card")
 
 public class Cards extends BaseEntity {
