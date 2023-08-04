@@ -20,7 +20,7 @@ public class Board extends BaseEntity {
     private Long id;
 
     private String title;
-// to convert to the column use the hash map to convert
+// used hash map for the columns with integer key and string value
     @Convert(converter = CardConverter.class)
     private Map<Integer, String> columns = Map.of(
             1, "To do",
