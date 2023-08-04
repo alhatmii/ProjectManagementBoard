@@ -20,7 +20,7 @@ public class Board extends BaseEntity {
     private Long id;
 
     private String title;
-// to convert
+// to convert to the column
     @Convert(converter = MapConverter.class)
     private Map<Integer, String> columns = Map.of(
             1, "To do",
