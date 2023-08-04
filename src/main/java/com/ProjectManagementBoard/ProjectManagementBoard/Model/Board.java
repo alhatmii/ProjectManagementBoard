@@ -29,6 +29,6 @@ public class Board extends BaseEntity {
     );
 
     @OneToMany(mappedBy = "board")
-    private List<Cards> cards;
+    private List<Card> cards;
 
 }
