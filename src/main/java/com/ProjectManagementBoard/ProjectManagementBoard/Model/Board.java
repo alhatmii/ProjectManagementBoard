@@ -21,7 +21,7 @@ public class Board extends BaseEntity {
 
     private String title;
 // to convert to the column use the hash map to convert
-    @Convert(converter = MapConverter.class)
+    @Convert(converter = CardConverter.class)
     private Map<Integer, String> columns = Map.of(
             1, "To do",
             2, "In progress",

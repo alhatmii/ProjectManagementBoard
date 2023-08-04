@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Converter
-public class MapConverter implements AttributeConverter<Map<Integer, String>, String> {
+public class CardConverter implements AttributeConverter<Map<Integer, String>, String> {
 
     private static final String SEPARATOR = ";";
 
